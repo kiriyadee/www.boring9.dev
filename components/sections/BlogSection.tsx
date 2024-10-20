@@ -1,10 +1,9 @@
 import SearchAllProjects from '../content/SearchAllProjects';
 import AnimationContainer from '../utils/AnimationContainer';
 import BlogContainer from '../utils/BlogContainer';
-import SectionContainer from '../utils/SectionContainer';
 import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
 
-const myGithub = 'https://github.com/enwuft';
+const myGithub = 'https://github.com/kiriyadee';
 
 const BlogSection = () => {
   return (
