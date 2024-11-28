@@ -7,7 +7,7 @@
   "repository": "https://github.com/enwuft/",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,15 +21,15 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "classnames": "^2.5.1",
     "clsx": "^1.2.1",
     "embla-carousel-react": "^7.1.0",
     "framer-motion": "^8.5.5",
-    "next": "^14.2.18",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
     "sharp": "^0.31.3",
     "styled-components": "^5.3.11",
     "tailwindcss": "^3.4.15",
@@ -40,7 +40,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^13.5.7",
+    "eslint-config-next": "15.0.3",
     "postcss": "^8.4.49",
     "postcss-import": "^16.1.0",
     "postcss-preset-env": "^7.8.3",
@@ -51,5 +51,9 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "none"
+  },
+  "resolutions": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }

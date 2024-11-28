@@ -1,3 +1,6 @@
+import { motion } from 'framer-motion';
+import React from 'react';
+
 export interface TimelineEventProps {
   active?: boolean;
   children: React.ReactNode;
@@ -22,7 +25,7 @@ export interface NavItemProps {
   text: string;
 }
 
-export interface AnimationContainerProps {
+export interface AnimationContainerProps extends React.ComponentProps<typeof motion.div> {
   children: React.ReactNode;
   customClassName?: string;
   customDelay?: number;

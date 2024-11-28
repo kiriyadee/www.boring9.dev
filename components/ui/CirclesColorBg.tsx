@@ -12,12 +12,13 @@ const animation = {
 
 const CirclesColorBg = () => {
   return (
-    <motion.div
-      className="darkBackgroundCirclesColors"
-      initial={animation.hide}
-      animate={animation.show}
-      transition={{ delay: 0.9 }}
-    ></motion.div>
+    <div className="darkBackgroundCirclesColors">
+      <motion.div
+        initial={animation.hide}
+        animate={animation.show}
+        transition={{ delay: 0.9 }}
+      ></motion.div>
+    </div>
   );
 };
 
