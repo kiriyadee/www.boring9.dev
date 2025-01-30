@@ -8,7 +8,7 @@ import Hero from '../content/Hero';
 import AnimationContainer from '../utils/AnimationContainer';
 import { skills } from '../utils/mySkills';
 import SectionContainer from '../utils/SectionContainer';
-import ShowSkills from '../utils/ShowSkills';
+import ShowSkills from '../utils/show-skill';
 
 const HomeSection = () => {
   return (

@@ -1,4 +1,4 @@
-import AboutSection from '@/components/sections/AboutSection';
+import AboutSection from '@/components/sections/about-section';
 
 const About = () => <AboutSection />;
 

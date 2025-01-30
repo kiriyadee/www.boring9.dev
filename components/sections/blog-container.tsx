@@ -2,6 +2,7 @@ import SearchAllProjects from '../content/SearchAllProjects';
 import AnimationContainer from '../utils/AnimationContainer';
 import BlogContainer from '../utils/BlogContainer';
 import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
+import SocialShare from './social-share';
 
 const myGithub = 'https://github.com/kiriyadee';
 
@@ -28,6 +29,8 @@ const BlogSection = () => {
             .
           </p>
         </AnimationContainer>
+
+        <SocialShare title="Blog" />
 
         <SearchAllProjects />
       </div>

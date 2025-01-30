@@ -1,4 +1,4 @@
-import BlogSection from '@/components/sections/BlogSection';
+import BlogSection from '@/components/sections/blog-container';
 
 const ContentBlog = () => <BlogSection />;
 
