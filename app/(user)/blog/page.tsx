@@ -1,5 +1,5 @@
-import BlogSection from '@/components/sections/BlogSection';
+import ContentSection from '@/components/sections/content-section';
 
-const Blog = () => <BlogSection />;
+const Blog = () => <ContentSection />;
 
 export default Blog;
