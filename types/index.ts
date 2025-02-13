@@ -21,11 +21,12 @@ export interface NavItemHeaderAnimation {
 }
 
 export interface NavItemProps {
-  href: string,
+  href: string;
   text: string;
 }
 
-export interface AnimationContainerProps extends React.ComponentProps<typeof motion.div> {
+export interface AnimationContainerProps
+  extends React.ComponentProps<typeof motion.div> {
   children: React.ReactNode;
   customClassName?: string;
   customDelay?: number;

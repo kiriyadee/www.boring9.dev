@@ -14,9 +14,9 @@ const NavItem = () => {
       {navItemsSelected[pathname] ? (
         <>
           <div className="hidden lg:block">
-            <div className="absolute bg-neutral-800 h-[34px] rounded-md z-[-1]">
+            <div className="absolute z-[-1]">
               <motion.div
-                layoutId="test2"
+                layoutId="id_1"
                 initial={{
                   opacity: 0,
                   x: navItemsSelected[pathname].x,

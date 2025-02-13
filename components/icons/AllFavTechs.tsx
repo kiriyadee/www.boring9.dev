@@ -12,7 +12,7 @@ const animation = {
 
 const AllFavTechs = () => {
   return (
-    <>
+    <div>
       <p className="text-base text-center lg:text-start mb-2.5 text-gray-400">
         <motion.p
           initial={animation.hide}
@@ -23,7 +23,7 @@ const AllFavTechs = () => {
         </motion.p>
       </p>
 
-      <ul className="flex justify-center items-center flex-wrap gap-3.5 text-[#444] mx-auto">
+      <div className="flex text-[#444] justify-center items-center lg:items-start mb-5 mx-auto lg:mx-0">
         <motion.ul
           initial="hide"
           animate="show"
@@ -134,8 +134,8 @@ const AllFavTechs = () => {
             </motion.li>
           </li>
         </motion.ul>
-      </ul>
-    </>
+      </div>
+    </div>
   );
 };
 

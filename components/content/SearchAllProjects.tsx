@@ -8,11 +8,11 @@ import { CardProjectProps } from '@/types';
 const allProjectsInfo = [
   {
     id: '1',
-    title: 'One To Many - A Brief Science',
-    des: 'Project using the Next.js, content about Science.',
+    title: 'The Future of Energy in Thailand.',
+    des: 'Our commitment to green energy is paving the way for a cleaner, healthier planet. Join us on a journey towards a future where clean, renewable energy sources transform the way we power our lives.',
     category: 'typescript',
-    repo: 'https://physic.boring9.dev/',
-    link: 'https://physic.boring9.dev/'
+    repo: '',
+    link: 'https://www.gridtokenx.com'
   }
 ];
 
